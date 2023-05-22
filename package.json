@@ -3,6 +3,10 @@
   "displayName": "symbol",
   "description": "",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/intsuc/vscode-symbol.git"
+  },
   "engines": {
     "vscode": "^1.78.0"
   },
