@@ -1,2 +1,1 @@
-# vscode-symbol
- 
+# <samp>vscode-symbol</samp>
