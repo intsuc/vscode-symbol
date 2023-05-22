@@ -7,8 +7,8 @@ export function activate(context: ExtensionContext) {
 			{
 				provideDocumentSymbols(document, _token): ProviderResult<SymbolInformation[]> {
 					return [{
-						name: document.fileName,
-						containerName: document.fileName,
+						name: "this",
+						containerName: "this",
 						kind: SymbolKind.File,
 						location: {
 							uri: document.uri,
